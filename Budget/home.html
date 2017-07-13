@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Budget JavaScript</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="top">
+    <div class="wrapper-top">
+        <div class="budget-tittle">Available Budget in <span class="tittle-month">July 2017:</span></div>
+        <div class="budget-value">-0.00</div>
+        <div class="budget-income clear-fix">
+            <div class="budget-income-text">Income</div>
+            <div class="right">
+                <div class="income-value">+0.00</div>
+                <div class="income-percent">&nbsp;</div>
+            </div>
+        </div>
+        <div class="budget-expenses clear-fix">
+            <div class="budget-expenses-text">expenses</div>
+            <div class="right">
+                <div class="expenses-value">-0.00</div>
+                <div class="expenses-percent">___</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="add">
+        <div class="add-container">
+            <select class="add-type">
+                <option value="inc">+</option>
+                <option value="exp">-</option>
+            </select>
+            <input type="text" placeholder="Add description" class="add-description">
+            <input type="number" placeholder="Value" class="add-value">
+            <button class="btn-add"><i class="ion-ios-checkmark-outline"></i></button>
+
+        </div>
+    </div>
+
+        <div class="container clear-fix">
+            <div class="income">
+                <h2 class="income-title">INCOME</h2>
+                <div class="income-list">
+                    <!--<div class="item clear-fix" id="income-0">-->
+                        <!--<div class="item-description">Salary</div>-->
+                        <!--<div class="right clear-fix">-->
+                            <!--<div class="item-value">+ 2,100.00</div>-->
+                            <!--<div class="item-delete">-->
+                                <!--<button class="item-delete&#45;&#45;btn">-->
+                                    <!--<i class="ion-ios-close-outline"></i>-->
+                                <!--</button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="item clear-fix" id="income-1">-->
+                        <!--<div class="item-description">Sold car</div>-->
+                        <!--<div class="right clear-fix">-->
+                            <!--<div class="item-value">+ 1,500.00</div>-->
+                            <!--<div class="item-delete">-->
+                                <!--<button class="item-delete&#45;&#45;btn"><i class="ion-ios-close-outline"></i></button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+            <div class="expenses">
+                <h2 class="expenses-title">EXPENSES</h2>
+                <div class="expense-list">
+                    <!--<div class="item clear-fix" id="expense-0">-->
+                        <!--<div class="item-description">Salary</div>-->
+                        <!--<div class="right clear-fix">-->
+                            <!--<div class="item-value">+ 2,100.00</div>-->
+                            <!--<div class="item-percent">14%</div>-->
+                            <!--<div class="item-delete">-->
+                                <!--<button class="item-delete&#45;&#45;btn">-->
+                                    <!--<i class="ion-ios-close-outline"></i>-->
+                                <!--</button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="item clear-fix" id="expenses-1">-->
+                        <!--<div class="item-description">Sold car</div>-->
+                        <!--<div class="right clear-fix">-->
+                            <!--<div class="item-value">+ 1,500.00</div>-->
+                            <!--<div class="item-percent">14%</div>-->
+                            <!--<div class="item-delete">-->
+                                <!--<button class="item-delete&#45;&#45;btn"><i class="ion-ios-close-outline"></i></button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
